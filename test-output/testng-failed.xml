@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.scripts.actitime.TESTActitimeDeleteLeaveType">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginActitime"/>
+          <include name="deleteTypeOfLeave"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeDeleteLeaveType -->
+      <class name="com.scripts.actitime.TESTActitimeEditLeave">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginActitime"/>
+          <include name="editLeave"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeEditLeave -->
+      <class name="com.scripts.actitime.TESTActitimeLeaveType">
+        <methods>
+          <include name="createLeaveType"/>
+          <include name="openBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginActitime"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TESTActitimeLeaveType -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
