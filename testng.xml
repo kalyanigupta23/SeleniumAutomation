@@ -3,16 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.scripts.actitime.TESTActitimeLogin"/>
       <class name="com.scripts.actitime.TESTActitimeWorkType"/>
-      <class name="com.scripts.actitime.TESTActitimeEditWork"/>
       <class name="com.scripts.actitime.TESTActitimeDeleteWorkType"/>
+      <class name="com.scripts.actitime.TESTActitimeDeleteCustomer"/>
+      <class name="com.scripts.actitime.TESTActitimeLogin"/>
+      <class name="com.scripts.actitime.TESTActitimeEditLeave"/>
+      <class name="com.scripts.actitime.TESTActitimeLeaveType"/>
+      <class name="com.scripts.actitime.sampleTest"/>
+      <class name="com.scripts.actitime.TESTActitimeDeleteLeaveType"/>
       <class name="com.scripts.actitime.TESTActitimeCreateCutomer"/>
       <class name="com.scripts.actitime.TESTActitimeEditCustomer"/>
-      <class name="com.scripts.actitime.TESTActitimeDeleteCustomer"/>
-      <class name="com.scripts.actitime.TESTActitimeLeaveType"/>
-      <class name="com.scripts.actitime.TESTActitimeEditLeave"/>      
-      <class name="com.scripts.actitime.TESTActitimeDeleteLeaveType"/>     
+      <class name="com.scripts.actitime.TESTActitimeEditWork"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
